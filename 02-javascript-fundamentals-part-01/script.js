@@ -1,5 +1,13 @@
-let js = "amazing";
+// - value - the most fundamental unit of information we have in programming
+// - variable - a container to store a value
 
-if (js === "amazing") alert("JavaScript is FUN!");
+// declaring a variable named 'firstName' and assigning to it the value of 'John'
+let firstName = "John";
 
-console.log(40 + 8 + 23 - 10);
+// variable naming conventions:
+// - can only contain numbers, letters, underscore or dollar sign
+// - cannot start with a number
+// - cannot contain reserved keywords
+// - should use camelCase (convention)
+// - should not start with capital letter (convention)
+// - should be descriptive (convention)
