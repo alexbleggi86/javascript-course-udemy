@@ -66,6 +66,6 @@
 
 // var
 // should be avoided in ES6
-//javascript will  create the variable in the global object
+// javascript will create the variable in the global object
 // var number = 25;
 // number = 26;
