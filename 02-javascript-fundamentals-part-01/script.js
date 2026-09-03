@@ -69,3 +69,29 @@
 // javascript will create the variable in the global object
 // var number = 25;
 // number = 26;
+
+//////////////////////////////////////////////////
+
+// 04. strings and template literals
+
+// strings
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// result:
+// 'String with
+// multiple
+// lines'
+
+// template literals
+// console.log(`
+// String with
+// multiple
+// lines
+// `);
+
+// result:
+// 'String with
+// multiple
+// lines'
