@@ -181,3 +181,19 @@
 // console.log(Boolean(true)); // result: true
 // console.log(Boolean('John')); // result: true
 // console.log(Boolean({})); // result: true
+
+//////////////////////////////////////////////////
+
+// 08. equality operators: == vs. ===
+
+// - loose equality operator (==)
+// the Loose equality operator performs type coercion.
+
+// const age = 25;
+// if (age == '25') console.log('loose'); // result: 'loose'
+
+// - strict equality operator (===)
+// the strict equality operator doesn't perform type coercion.
+
+// const age = 25;
+// if (age === 25) console.log('strict'); // result: 'strict'
