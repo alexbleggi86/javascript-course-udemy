@@ -160,3 +160,24 @@
 // console.log(`Number ${25}`); // result: 'Number 25' (template literals triggers String coercion)
 // console.log('25' - '10' - 3); // result: 12 (mathematical operators other than the + operator, trigger Number coercion)
 // console.log('25' > '1'); // result: true (comparison operators trigger Boolean coercion)
+
+//////////////////////////////////////////////////
+
+// 07. truthy and falsy values
+
+// - falsy values
+// there are 5 falsy(when converted to boolean) values: 0, '', undefined, null, NaN
+
+// console.log(Boolean(0)); // result: false
+// console.log(Boolean(undefined)); // result: false
+// console.log(Boolean('')); // result: false
+// console.log(Boolean(null)); // result: false
+// console.log(Boolean(NaN)); // result: false
+// console.log(Boolean(false)); // result: false
+
+// - truthy values
+// values that will be converted to true.
+
+// console.log(Boolean(true)); // result: true
+// console.log(Boolean('John')); // result: true
+// console.log(Boolean({})); // result: true
