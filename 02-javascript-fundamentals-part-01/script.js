@@ -3,10 +3,10 @@
 // - value - the most fundamental unit of information we have in programming
 // - variable - a container to store a value
 
-// declaring a variable named 'firstName' and assigning to it the value of 'John'
+// - declaring a variable named 'firstName' and assigning to it the value of 'John'
 // let firstName = "John";
 
-// variable naming conventions:
+// - variable naming conventions:
 
 // - can only contain numbers, letters, underscore or dollar sign
 // - cannot start with a number
@@ -138,3 +138,25 @@
 // }
 
 // result: 'false'
+
+//////////////////////////////////////////////////
+
+// 06. type conversion and coercion
+
+// - type conversion - when a type is explicitly converted
+
+// const number = '25';
+// console.log(Number(number), number); // result: 25 '25'
+// console.log(Number(number) + 5); // result: 30
+// console.log(Number('John')); // result: NaN (nota a number: whenever a operation fails to produce a new number)
+// console.log(typeof NaN); // result: number
+//console.log(String(25), 25); // result: '25' 25
+
+// - type coercion - when javascript automatically convert types
+// it happens whenever an operator is dealing with values that have different types.
+
+// console.log('Number ' + '25'); // result: 'Number 25'
+// console.log('Number ' + 25); // result: 'Number 25' (+ operator triggers String coercion)
+// console.log(`Number ${25}`); // result: 'Number 25' (template literals triggers String coercion)
+// console.log('25' - '10' - 3); // result: 12 (mathematical operators other than the + operator, trigger Number coercion)
+// console.log('25' > '1'); // result: true (comparison operators trigger Boolean coercion)
