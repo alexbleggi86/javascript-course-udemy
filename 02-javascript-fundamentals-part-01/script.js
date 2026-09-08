@@ -197,3 +197,30 @@
 
 // const age = 25;
 // if (age === 25) console.log('strict'); // result: 'strict'
+
+//////////////////////////////////////////////////
+
+// 09. the switch statement
+// to compare one value to multiple different options.
+
+// const day = 'thursday';
+
+// switch (day) {
+//   case 'monday': // day === 'monday'
+//     console.log('monday');
+//     break;
+//   case 'tuesday':
+//     console.log('tuesday');
+//     break;
+//   case 'wednesday':
+//   case 'thursday':
+//     console.log('wednesday and thursday');
+//     break;
+//   case 'friday':
+//     console.log('friday');
+//     break;
+//   default:
+//     console.log('not a valid day');
+// }
+
+// result: 'wednesday and thursday'
