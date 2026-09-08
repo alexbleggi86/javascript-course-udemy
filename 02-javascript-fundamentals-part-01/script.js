@@ -224,3 +224,17 @@
 // }
 
 // result: 'wednesday and thursday'
+
+//////////////////////////////////////////////////
+
+// 09. statements and expressions
+
+// expressions
+// expressions produces a value.
+
+// 3 + 4;
+
+// statements
+// statements don't produce a value.
+
+// true && false;
