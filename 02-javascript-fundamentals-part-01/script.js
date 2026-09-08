@@ -238,3 +238,10 @@
 // statements don't produce a value.
 
 // true && false;
+
+//////////////////////////////////////////////////
+
+// 10. the conditional (ternary) operator
+
+// const number = 25;
+// console.log(`${number >= 30 ? 'it is' : 'it is not'}`); // result: 'it is not'
